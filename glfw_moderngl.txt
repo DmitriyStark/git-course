@@ -1,0 +1,18 @@
+GLFW:
+init()
+create_window(WIDTH, HEIGHT, title, None, None) 	# return ObjectWindow
+make_context_current(window)
+get_key(OjectWindow, glf.KEY_<КЛАВИША>)
+swap_buffers()
+terminate()
+poll_events()
+window_should_close(ObjectWindow)
+set_window_should_close(ObjecWindow, <True or False>)
+
+ModernGL:
+create_context() 					# return ObjectContext
+clear(r, g, b, a)
+vertex_array()
+buffer()
+program()
+
